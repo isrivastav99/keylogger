@@ -16,7 +16,10 @@ class KeyPair{
 class Keys{
     public:
         //pair : System name of key, user readable key name
-       map<int, KeyPair> Keys::KEYS = {
+       static std::map<int, KeyPair> KEYS;
+};
+
+    std::map<int, KeyPair> Keys::KEYS = {
     {0xC1, {"[VK_ABNT_C1]", "[Abnt C1]"}},
     {0xC2, {"[VK_ABNT_C2]", "[Abnt C2]"}},
     {0x6B, {"[VK_ADD]", "[Numpad +]"}},
@@ -208,7 +211,5 @@ class Keys{
     {0xAF, {"[VK_VOLUME_UP]", "[Volume Up]"}},
     {0x05, {"[VK_XBUTTON1]", "[X Button 1 **]"}},
     {0x06, {"[VK_XBUTTON2]", "[X Button 2 **]"}},
-};
-
 };
 #endif // KEYCONSTANTS_H

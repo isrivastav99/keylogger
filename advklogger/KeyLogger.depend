@@ -3,3 +3,24 @@
 	<iostream>
 	<windows.h>
 
+1595851850 source:c:\users\acer\documents\keylogger\advklogger\main.cpp
+	<iostream>
+	<windows.h>
+	"Helper.h"
+	"KeyConstants.h"
+	"Base64.h"
+
+1595856837 c:\users\acer\documents\keylogger\advklogger\helper.h
+	<ctime>
+	<string>
+	<sstream>
+	<fstream>
+
+1595851664 c:\users\acer\documents\keylogger\advklogger\keyconstants.h
+	<map>
+	<string>
+
+1595851734 c:\users\acer\documents\keylogger\advklogger\base64.h
+	<vector>
+	<string>
+
