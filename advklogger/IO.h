@@ -1,5 +1,5 @@
 #ifndef IO_H
-#define #IO_H
+#define IO_H
 
 #include<string>
 #include<cstdlib>
@@ -23,15 +23,15 @@ namespace IO{
    }
 
    bool MKDir(std::string path){
-        for(char &c : path){
+        for(char &c : path)
             if(c == '\\'){
                 c = '\0';
                 if(!MkOneDr(path))
                     return false;
                 c = '\\';
             }
-            return true;
-        }
+
+        return true;
    }
 
    template<class T>
